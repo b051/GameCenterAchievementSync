@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF9DCC0916D70250009275F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9DCC0816D70250009275F0 /* UIKit.framework */; };
+		CF9DCC0B16D70250009275F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9DCC0A16D70250009275F0 /* Foundation.framework */; };
+		CF9DCC0D16D70250009275F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9DCC0C16D70250009275F0 /* CoreGraphics.framework */; };
+		CF9DCC0F16D70250009275F0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9DCC0E16D70250009275F0 /* CoreData.framework */; };
+		CF9DCC1516D70250009275F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF9DCC1316D70250009275F0 /* InfoPlist.strings */; };
+		CF9DCC1716D70250009275F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9DCC1616D70250009275F0 /* main.m */; };
+		CF9DCC1B16D70250009275F0 /* GAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9DCC1A16D70250009275F0 /* GAAppDelegate.m */; };
+		CF9DCC1D16D70250009275F0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CF9DCC1C16D70250009275F0 /* Default.png */; };
+		CF9DCC1F16D70250009275F0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF9DCC1E16D70250009275F0 /* Default@2x.png */; };
+		CF9DCC2116D70250009275F0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF9DCC2016D70250009275F0 /* Default-568h@2x.png */; };
+		CF9DCC2416D70250009275F0 /* GameCenterAchievement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF9DCC2216D70250009275F0 /* GameCenterAchievement.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF9DCC0516D70250009275F0 /* GameCenterAchievement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameCenterAchievement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9DCC0816D70250009275F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF9DCC0A16D70250009275F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF9DCC0C16D70250009275F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF9DCC0E16D70250009275F0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CF9DCC1216D70250009275F0 /* GameCenterAchievement-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameCenterAchievement-Info.plist"; sourceTree = "<group>"; };
+		CF9DCC1416D70250009275F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF9DCC1616D70250009275F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF9DCC1816D70250009275F0 /* GameCenterAchievement-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GameCenterAchievement-Prefix.pch"; sourceTree = "<group>"; };
+		CF9DCC1916D70250009275F0 /* GAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAAppDelegate.h; sourceTree = "<group>"; };
+		CF9DCC1A16D70250009275F0 /* GAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAAppDelegate.m; sourceTree = "<group>"; };
+		CF9DCC1C16D70250009275F0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CF9DCC1E16D70250009275F0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CF9DCC2016D70250009275F0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CF9DCC2316D70250009275F0 /* GameCenterAchievement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GameCenterAchievement.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF9DCC0216D70250009275F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9DCC0916D70250009275F0 /* UIKit.framework in Frameworks */,
+				CF9DCC0B16D70250009275F0 /* Foundation.framework in Frameworks */,
+				CF9DCC0D16D70250009275F0 /* CoreGraphics.framework in Frameworks */,
+				CF9DCC0F16D70250009275F0 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF9DCBFC16D70250009275F0 = {
+			isa = PBXGroup;
+			children = (
+				CF9DCC1016D70250009275F0 /* GameCenterAchievement */,
+				CF9DCC0716D70250009275F0 /* Frameworks */,
+				CF9DCC0616D70250009275F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF9DCC0616D70250009275F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF9DCC0516D70250009275F0 /* GameCenterAchievement.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF9DCC0716D70250009275F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF9DCC0816D70250009275F0 /* UIKit.framework */,
+				CF9DCC0A16D70250009275F0 /* Foundation.framework */,
+				CF9DCC0C16D70250009275F0 /* CoreGraphics.framework */,
+				CF9DCC0E16D70250009275F0 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF9DCC1016D70250009275F0 /* GameCenterAchievement */ = {
+			isa = PBXGroup;
+			children = (
+				CF9DCC1916D70250009275F0 /* GAAppDelegate.h */,
+				CF9DCC1A16D70250009275F0 /* GAAppDelegate.m */,
+				CF9DCC2216D70250009275F0 /* GameCenterAchievement.xcdatamodeld */,
+				CF9DCC1116D70250009275F0 /* Supporting Files */,
+			);
+			path = GameCenterAchievement;
+			sourceTree = "<group>";
+		};
+		CF9DCC1116D70250009275F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF9DCC1216D70250009275F0 /* GameCenterAchievement-Info.plist */,
+				CF9DCC1316D70250009275F0 /* InfoPlist.strings */,
+				CF9DCC1616D70250009275F0 /* main.m */,
+				CF9DCC1816D70250009275F0 /* GameCenterAchievement-Prefix.pch */,
+				CF9DCC1C16D70250009275F0 /* Default.png */,
+				CF9DCC1E16D70250009275F0 /* Default@2x.png */,
+				CF9DCC2016D70250009275F0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF9DCC0416D70250009275F0 /* GameCenterAchievement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9DCC2716D70250009275F0 /* Build configuration list for PBXNativeTarget "GameCenterAchievement" */;
+			buildPhases = (
+				CF9DCC0116D70250009275F0 /* Sources */,
+				CF9DCC0216D70250009275F0 /* Frameworks */,
+				CF9DCC0316D70250009275F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameCenterAchievement;
+			productName = GameCenterAchievement;
+			productReference = CF9DCC0516D70250009275F0 /* GameCenterAchievement.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF9DCBFD16D70250009275F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GA;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = rexsheng.com;
+			};
+			buildConfigurationList = CF9DCC0016D70250009275F0 /* Build configuration list for PBXProject "GameCenterAchievement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF9DCBFC16D70250009275F0;
+			productRefGroup = CF9DCC0616D70250009275F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF9DCC0416D70250009275F0 /* GameCenterAchievement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF9DCC0316D70250009275F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9DCC1516D70250009275F0 /* InfoPlist.strings in Resources */,
+				CF9DCC1D16D70250009275F0 /* Default.png in Resources */,
+				CF9DCC1F16D70250009275F0 /* Default@2x.png in Resources */,
+				CF9DCC2116D70250009275F0 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF9DCC0116D70250009275F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9DCC1716D70250009275F0 /* main.m in Sources */,
+				CF9DCC1B16D70250009275F0 /* GAAppDelegate.m in Sources */,
+				CF9DCC2416D70250009275F0 /* GameCenterAchievement.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF9DCC1316D70250009275F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF9DCC1416D70250009275F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF9DCC2516D70250009275F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF9DCC2616D70250009275F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF9DCC2816D70250009275F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameCenterAchievement/GameCenterAchievement-Prefix.pch";
+				INFOPLIST_FILE = "GameCenterAchievement/GameCenterAchievement-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF9DCC2916D70250009275F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameCenterAchievement/GameCenterAchievement-Prefix.pch";
+				INFOPLIST_FILE = "GameCenterAchievement/GameCenterAchievement-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF9DCC0016D70250009275F0 /* Build configuration list for PBXProject "GameCenterAchievement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9DCC2516D70250009275F0 /* Debug */,
+				CF9DCC2616D70250009275F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF9DCC2716D70250009275F0 /* Build configuration list for PBXNativeTarget "GameCenterAchievement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9DCC2816D70250009275F0 /* Debug */,
+				CF9DCC2916D70250009275F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF9DCC2216D70250009275F0 /* GameCenterAchievement.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF9DCC2316D70250009275F0 /* GameCenterAchievement.xcdatamodel */,
+			);
+			currentVersion = CF9DCC2316D70250009275F0 /* GameCenterAchievement.xcdatamodel */;
+			path = GameCenterAchievement.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF9DCBFD16D70250009275F0 /* Project object */;
+}
