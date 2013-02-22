@@ -7,12 +7,14 @@
 
 #import "Achievement.h"
 
+typedef void(^reportAchievementBlock)(NSString *identifier, double percentComplete);
+
 @interface Achievement (GameCenter)
 
 + (void)updateFromGameCenter:(MRSaveCompletionHandler)complete;
 + (void)restoreFromGameCenter:(MRSaveCompletionHandler)complete;
 + (void)sendToGameCenter:(MRSaveCompletionHandler)complete;
-+ (void)checkForNewAchievements:(void(^)(NSManagedObjectContext *context, void(^reportAchievement)(NSString *, double)))math complete:(MRSaveCompletionHandler)complete;
++ (void)checkForNewAchievements:(void(^)(NSManagedObjectContext *context, reportAchievementBlock block))math complete:(MRSaveCompletionHandler)complete;
 
 + (Achievement *)achievementByIdentifier:(NSString *)identifier inContext:(NSManagedObjectContext *)context;
 - (GKAchievement *)gkAchievement;
